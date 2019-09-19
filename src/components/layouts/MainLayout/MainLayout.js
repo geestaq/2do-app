@@ -1,10 +1,11 @@
 import React from 'react'
-//import Header from '../../layouts/Header/Header';
-//import Footer from '../../layouts/Footer/Footer';
+import Header from '../Header/Header';
+//import Footer from '../Footer/Footer';
 import { Container } from 'reactstrap';
 
 const MainLayout = ({ children }) => (
   <Container>
+    <Header />
     {children}
   </Container>
 );
