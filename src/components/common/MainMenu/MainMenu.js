@@ -7,7 +7,8 @@ import { FaPlus } from 'react-icons/fa';
 class MainMenu extends React.Component {
 
   newListHandler = () => {
-    console.log('new list clicked');
+    const { showTodoForm } = this.props;
+    showTodoForm();
   }
 
   render() {

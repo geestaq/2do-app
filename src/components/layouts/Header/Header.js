@@ -1,5 +1,5 @@
 import React from 'react';
-import MainMenu from '../../common/MainMenu/MainMenu';
+import MainMenu from '../../common/MainMenu/MainMenuContainer';
 import { Navbar, NavbarBrand, NavbarToggler, Collapse } from 'reactstrap';
 import './Header.scss';
 
